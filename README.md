@@ -4,6 +4,7 @@ A simple locally hosted proxy server written in Go that caches HTTP requests in 
 ## Usage
 Build the binary:
 ```go build -o capr main.go```
+Note: Call the binary whatever you want.  `capr` seemed like a good abbreviate of "caching proxy"
 
 View CLI flags:
 ```./capr --help```
